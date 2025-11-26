@@ -34,7 +34,6 @@ magic-portal.sln
 └─ magic-portal_class_library/         # Core blob logic
     └─ blob-storage-service.cs         # BlobStorageService
 ```
----
 
 ---
 
