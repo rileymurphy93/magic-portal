@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "magic-portal", "magic-portal\magic-portal.csproj", "{5991E852-0468-4783-9FF5-962B1583EF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "magic_portal_class_library", "magic-portal-class-library\magic_portal_class_library.csproj", "{EC7CB866-C15B-4CB2-A011-3296F2FB90A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5991E852-0468-4783-9FF5-962B1583EF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5991E852-0468-4783-9FF5-962B1583EF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5991E852-0468-4783-9FF5-962B1583EF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5991E852-0468-4783-9FF5-962B1583EF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7CB866-C15B-4CB2-A011-3296F2FB90A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7CB866-C15B-4CB2-A011-3296F2FB90A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7CB866-C15B-4CB2-A011-3296F2FB90A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7CB866-C15B-4CB2-A011-3296F2FB90A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BCE3E4D-BB8D-40C2-8AB0-8A72F6F743BC}
+	EndGlobalSection
+EndGlobal
