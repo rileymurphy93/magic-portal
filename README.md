@@ -5,7 +5,9 @@
 ![UI](https://img.shields.io/badge/UI-WPF-purple)
 ![Azure](https://img.shields.io/badge/Azure-Blob%20Storage-0089D6)
 
-A lightweight WPF desktop tool for managing files in an Azure Blob Storage container. Upload or download files without having to login.
+A lightweight WPF desktop tool for managing files in an Azure Blob Storage container.
+
+![alt text](https://github.com/rileymurphy93/magic-portal/blob/main/magic-portal.png)
 
 ## Prerequisites
 
