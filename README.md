@@ -44,7 +44,7 @@ To avoid configuration bugs, make sure these rules are followed:
 | Setting | Requirement | Example |
 |---|---|---|
 | `AccountUrl` | Must end with a `/` | `https://foo.blob.core.windows.net/` |
-| `SasToken` | Must start with a `?` | `?sv=...` |
+| `SasToken` | Must start with a `?` | `?sv=2020-19-08&spr=https&st...` |
 | `ContainerName` | Must match the Azure container name exactly | `software` |
 
 ## Build & Run (Visual Studio)
