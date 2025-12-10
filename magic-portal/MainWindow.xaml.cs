@@ -16,7 +16,7 @@ namespace magic_portal
 
         private readonly ObservableCollection<string> _blobItems = new();
 
-        // UI controls we’ll need to access later
+        // UI controls
         private ListBox _listBox = null!;
         private TextBlock _statusText = null!;
 
@@ -37,7 +37,7 @@ namespace magic_portal
 
             _blobs = new BlobStorageService(accountUrl, sasToken, _containerName);
 
-            // ---- Download dir (same as python app) ----
+            // ---- Download dir ----
             _downloadDir = OperatingSystem.IsWindows()
                 ? @"C:\Magic Portal"
                 : System.IO.Path.Combine(
