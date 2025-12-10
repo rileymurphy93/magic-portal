@@ -248,7 +248,15 @@ namespace magic_portal
                     Process.Start("xdg-open", path);
                 }
             }
-            catch { }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    $"Downloaded successfully, but couldn’t open the folder automatically.\n\nPath: {path}\n\n{ex.Message}",
+                    "Open Folder Failed",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Information
+                );
+            }
         }
     }
 }
